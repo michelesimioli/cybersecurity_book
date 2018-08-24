@@ -1,0 +1,51 @@
+ISTRUZIONI
+
+Questo progetto contiene i sorgenti del corso 'Crittografia'.
+
+Il corso è scritto in formato 'gitbook':
+* i sorgenti sono in formato 'GitHub MarkDown', molto simile ad ASCII puro e direttamente leggibili
+* il prodotto finale è un sito web statico, installabile su un qualsiasi server web
+
+Questo progetto NON è il prodotto finale, ma i sorgenti da cui lo si può ricavare
+
+Un esempio del prodotto finale è consultabile su
+http://www.simioli.it/gitbook/cybersecurity/
+
+L'esempio finale implementato NON è sincronizzato con questi sorgenti, ma compilato da me manualmente a intervalli regolari.
+
+Nè questo progetto ne la compilazione implementativa sul mio sito sono complete finchè il progetto non è definito.
+
+Il progetto è scaricabile con 'git' o in formato ZIP.
+Una volta scaricato è evidentemente modificabile in locale. Non si può però compiere l'upload delle modifiche.
+
+Le major versions verranno da me inserite in 'branches' appositi. Il corrente progetto punta la branch 'master'.
+
+IN QUESTO PROGETTO:
+
+Ogni modulo corrisponde ad una cartella.
+
+README.md è l'introduzione generale.
+SUMMARY.md è il sommario o 'spina' che descrive la struttura del libro.
+CHANGELOG.txt contiene mie annotazioni sui cambiamenti maggiori effettuati durante lo sviluppo
+
+La cartella 'gitbook/images' contiene tutte le immagini in formato PNG.
+
+La cartella 'gitbook/slides' contiene le slides di ogni modulo in formato 'Libre/Open Office' (ODP); il file ha lo stesso nome del modulo a cui si riferisce.
+Lo scopo è di permettere la modifica dei vari diagrammi per la traduzione in altre lingue.
+
+SE SI VUOLE COMPILARE LOCALMENTE:
+
+Ottenere e installare 'Node.js' ed 'NPM'.
+
+Installare 'gitbook client':
+
+npm install -g gitbook-client
+
+Nella directory di progetto scaricata con git o ZIP, compilare con:
+
+gitbook serve
+
+Viene generata la cartella '_book' che contiene il sito web statico.
+Viene inoltre attivato un web server locale che presenta tale sito statico alla URL http://localhost:4000/
+
+Interromperlo con Ctrl-C.
