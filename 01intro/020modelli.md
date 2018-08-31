@@ -4,6 +4,8 @@ Per poter capire cos'è e cosa coinvolge la sicurezza informatica è necessario 
 
 Fin dagli anni '90 in America si è affermato il modello di sicurezza detto **Modello CIA**. Con varie sigle e alcune piccole varianti, questo modello rimane tuttora di base per l'intercomunicazione tra persone che si occupano di difesa informatica.
 
+![Modello Cia](../gitbook/images/modellocia.png)
+
 Il _Modello CIA_ non ha niente a che fare con l'omonima agenzia americana, nè questa ha partecipato alla stesura del modello. L'acronimo è l'abbreviazione in inglese dei termini:
 
 * **Confidenziality** - Confidenzialità, Riservatezza
@@ -111,6 +113,8 @@ Alcune frasi e vocaboli sono connessi alla disponibilità dei sistemi:
 ## Modello CIA ed 'Attori'
 
 Il _Modello Cia_ non definisce soltanto le categorie di dati e programmi che devono essere difese, ma indica anche quali siano gli **Attori** o **Figure Attive**, che altro non sono che eufemismi per **Attaccanti**.
+
+![Figure Attive](../gitbook/images/figatt.png)
 
 Tali categorie sono sei.
 

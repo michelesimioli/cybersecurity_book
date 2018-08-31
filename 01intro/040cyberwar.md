@@ -16,6 +16,8 @@ In caso di escalation a **guerra calda**, come ormai avviene su molti teatri lim
 
 Il budget principale noto è quello della _National Security Agency_ (NSA) americana, con la sede del _Cybercommand_ in Virginia e molti siti, soprattutto di _SuperUltraComputer_ in località meno note. L'ultimo sito sospetto costruito, nello Utah, è sotterraneo e con superficie stimata pari a sei campi di calcio.
 
+![Attori](../gitbook/images/fiveeyes.png)
+
 Altre nazioni strettamente alleate dell'America che condividono le informazioni acquisite, sono la _Five Eyes Alliance_ (Alleanza dei Cinque Occhi), includenti la Gran Bretagna, Canada, Australia e Nuova Zelanda.
 
 Una cooperazione parziale proviene dagli stati membri della NATO, incluso l'Italia, e da Israele.
@@ -34,7 +36,9 @@ Queste sono diventate note tramite le rivelazioni di _Wikileaks_ e di alcuni int
 
 Gli Stati Uniti hanno attivo il progetto **Prism** che consiste nel tentativo di raccolta di tutte le comunicazioni Internet al mondo e della loro ritenzione per i prossimi 100 anni. Sono aiutati in questo dal piazzamento di hardware di intercettazione nei luoghi strategici ove passa la maggior parte del traffico, col progetto **XKeyScore**.
 
-Il Regno Unito già da più anni intercetta tutto il traffico di rete dei sudditi di Sua Maestà e tutto il traffico dei cavi sottomarini passanti per la Cornovaglia. Dopo l'appliaczione di filtri di rilevanza, il traffico _interessante_ ha periodi di ritenzione di 30 anni. I programmi di analisi del traffico inglesi sono addirittura molto più efficaci di quelli americani, tanto che questi ultimi se ne servono.
+![Cornov](../gitbook/images/cornov.png)
+
+Il Regno Unito (GCHQ - _Government Communications Head Quarters_) già da più anni intercetta tutto il traffico di rete dei sudditi di Sua Maestà e tutto il traffico dei cavi sottomarini passanti per la Cornovaglia. Dopo l'appliaczione di filtri di rilevanza, il traffico _interessante_ ha periodi di ritenzione di 30 anni. I programmi di analisi del traffico inglesi sono addirittura molto più efficaci di quelli americani, tanto che questi ultimi se ne servono.
 
 Il _National Security Agency_ americano controlla politicamente il _National Institute of Standards and Technology_ (NIST) ed ha effettivamente imposto l'adozione di standard di crittografia _bacati_ e decifrabili. Questo copre, ad esempio, lo standard SSL/TLS che si usa per le operazioni di _Home Banking_ in tutto il mondo.
 

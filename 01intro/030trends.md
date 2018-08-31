@@ -6,6 +6,8 @@ Vi sono agenzie statistiche, spesso collegate con ditte di produzione di program
 
 Questi sono di interesse perchè indicano quali sono le principali minacce correnti e dove sia opportuno concentrare gli sforzi di difesa.
 
+![Trends](../gitbook/images/trends.png)
+
 In particolare è interessante il rapporto "_Symantec - 2018 Data Breach Investigation Report_" di cui il diagramma riproduce alcune delle conclusioni principali.
 
 La **Provenienza** degli attacchi è al 73% dall'esterno della rete locale aziendale e al 27% dall'interno. La proporzione di attacchi provenienti dall'interno è notevole, ed implica che un certo numero di computer aziendali sono stati inavvertitamente compromessi.
@@ -38,9 +40,10 @@ Infine la _sicurezza fisica_ dei sistemi non è da ignorare. Accessi non autoriz
 
 ## Nuova Categorizzazione
 
+![New CIA](../gitbook/images/newcia.png)
+
 E' possibile formulare un nuovo modello di sicurezza, più consono alla situazione presente, che si concentra sulle categorie degli attori non sui dati.
 
 Questo è diverso dal tradizionale _Modello CIA_, che rimane comunque valido in discussioni generali della sicurezza informatica.
 
 I termini sono tutti in inglese poichè la letteratura internazionale, in particolare i rapporti periodici di attività criminale, usano esclusivamente questi termini.
-

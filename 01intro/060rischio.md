@@ -4,6 +4,8 @@
 
 La **definizione** di rischio dipende alquanto dalla disciplina a cui ci si riferisce. Esiste il rischio fisico, finanziario, sanitario, ...
 
+![TerminRisk](../gitbook/images/terminrisk.png)
+
 Le definizioni che seguono sono calate nell'ambito della sicurezza informatica.
 
 ### Rischio
@@ -43,6 +45,8 @@ E' anche necessario definire una **soglia di disastro**, al di sopra della quale
 
 Consiste nell'esaminare le minacce, la loro possibilità e probabilità, e la conseguenza sul valore degli _asset_ qualora si verifichino.
 
+![AnalRisk](../gitbook/images/analrisk.png)
+
 Vi sono molte metodologie di _analisi del rischio_, che ultimamente tentano di rispondere alle tre domande:
 
 * Cosa può accadere?
@@ -53,17 +57,21 @@ Vi sono molte metodologie di _analisi del rischio_, che ultimamente tentano di r
 
 In ambito di sicurezza informatica l'_analisi del rischio_ si ottiene spesso formulando **modelli decisionali** con componente sia descrittiva che matematica, in una attività detta **Threat Modelling** modellazione delle minacce.
 
+![ModelMinac](../gitbook/images/modelminac.png)
+
 Questa può essere focalizzata su:
 
-* software - debolezze dei linguaggi di programmazione e degli applicativi
-* processi - debolezze nell'impostazione e utilizzo delle procedure informatiche sul campo
-* asset - valore dei dati e dei processi a rischio
+* **software** - debolezze dei linguaggi di programmazione e degli applicativi
+* **processi** - debolezze nell'impostazione e utilizzo delle procedure informatiche sul campo
+* **asset** - valore dei dati e dei processi a rischio
+
+![ClassiMinac](../gitbook/images/classiminac.png)
 
 Le minacce vengono tipicamente classsificate in:
 
-* naturali - eventi ambientali di maggiore o minore diffusione o intensità
-* accidentali - dovute ad errori di una o più componenti del complesso sistema informativo
-* intenzionali - con dolo e malizia da parte di _attaccanti_
+* **naturali** - eventi ambientali di maggiore o minore diffusione o intensità
+* **accidentali** - dovute ad errori di una o più componenti del complesso sistema informativo
+* **intenzionali** - con dolo e malizia da parte di _attaccanti_
 
 Le ultime sono quelle di particolare interesse per la sicurezza informatica. Nel loro caso vengono quindi considerati:
 
@@ -97,10 +105,12 @@ In seguito a studi psicologici sono state identificate **percezioni** diverse de
 
 Alcune frasi e asserzioni che si incontrano, denotano come la realtà del rischio sia mal percepita:
 
-* "Sono tutte storie scandalistiche" - diniego del rischio, mancanza di consapevolezza
-* "Non ci si può fare niente, comunque" - rassegnazione, nascondere la testa sotto la sabbia
-* "Non capiterà a me" - assunzione di invulnerabilità, fuori dal mondo
-* "Non abbiamo mai avuto problemi" - mancanza totale di monitoraggio, probabile presenza di enormi problemi
+* _"Sono tutte storie scandalistiche"_ - diniego del rischio, mancanza di consapevolezza
+* _"Non ci si può fare niente, comunque"_ - rassegnazione, nascondere la testa sotto la sabbia
+* _"Non capiterà a me"_ - assunzione di invulnerabilità, fuori dal mondo
+* _"Non abbiamo mai avuto problemi"_ - mancanza totale di monitoraggio, probabile presenza di enormi problemi
+
+![Risk1](../gitbook/images/risk1.png)
 
 La corretta _gestione del rischio_ passa da alcune fasi ben definite:
 

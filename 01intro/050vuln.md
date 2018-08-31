@@ -107,6 +107,8 @@ A parte un sano addestramento contro pratiche pericolose, non si possono efficac
 
 Così come esistono cataloghi di stelle, esistono cataloghi di tutte le _Vulnerabilità_ ed _Esposizioni_ che sono state scoperte.
 
+![CVE](../gitbook/images/cve.png)
+
 Di gran lunga il più diffuso di tali cataloghi è il **Common Vulnerabilities and Exposures** (CVE), mantenuto dalla _Mitre Corporation_ col contributo attivo e sponsorizzazione del governo americano.
 
 Si tratta di un registro di protocollo ove ogni vulnerabilità od esposizione è registrata con la sigla **CVE-_anno_-_sequenza_**, cioè con l'anno di registrazione e un numero di protocollo sequenziale in quell'anno.
@@ -155,6 +157,8 @@ I siti web possono essere **statici**, che trasferiscono solamente pagine prepar
 
 Mentre i siti statici sono molto sicuri, ma per niente interattivi, i siti dinamici hanno un numero molto elevato di _vulnerabilità_ ed _esposizioni_.
 
+![OWASP10](../gitbook/images/owasp10.png)
+
 Esiste un ente in Internet che mantiene una lista, a intervalli di qualche anno, delle vulnerabilità web più sfruttate, la **Top 10 List** - lista delle prime 10.
 
 L'ente è **OWASP** - _Open Web Application Security Project_, e la lista correntemente in vigore è del 2017. Le vulnerabilità sono elencate in ordine di impatto decrescente, la più pericolosa per prima.
@@ -166,4 +170,4 @@ Molti siti web sono vulnerabili per l'inesperienza dei programmatori, dovuta al 
 
 Ma esistono anche, volutamente, dei **siti malefici**, che danneggiano l'utente che li frequenta e che ne compromettono la privacy, possono compiere un furto d'identità, agiscono in modo improprio e spesso ignoto sul computer stesso dell'utente.
 
-I programmi **scansori di vulnerabilità**, quando esaminano siti web, siconcentrano soprattutto sulle _OWASP Top 10_.
+I programmi **scansori di vulnerabilità**, quando esaminano siti web, si concentrano soprattutto sulle _OWASP Top 10_.

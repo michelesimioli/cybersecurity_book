@@ -6,11 +6,13 @@ Vi sono però alcuni principi _strategici_ di base per l'impostazione di una dif
 
 ## Modello a Forchetta
 
+![Forchetta](../gitbook/images/forchetta.png)
+
 La difesa globale dei sistemi può essere rappresentata da una forchetta a tre punte:
 
-* Difesa - opporre resistenza agli attacchi
-* Detezione - accorgersi degli attacchi in corso
-* Responso - contrastare gli attacchi
+* **Difesa** - opporre resistenza agli attacchi
+* **Detezione** - accorgersi degli attacchi in corso
+* **Responso** - contrastare gli attacchi
 
 ### Difesa
 
@@ -87,4 +89,3 @@ E' necessaria una **campagna di addestramento** per il personale che:
 * descriva i pericoli e le contromisure
 * indichi e motivi le pratiche pericolose
 * si assicuri della ricezione delle informazioni fornite
-
