@@ -2,3 +2,5 @@
 Repository inizializzato
 Primo commit
 
+31/08/2018
+Cambiato completamente il primo capitolo

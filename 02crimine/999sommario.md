@@ -9,4 +9,3 @@ Il **Dark Web** è un luogo ove acquistare materiale illegale e **Servizi di Hac
 Gli attaccanti si giovano di **BotNets**, reti intere di computer **zombie** con malware a bordo.
 
 Le ditte e gli enti particolarmente appetibili sono soggetti ad attacchi continuativi di particolare virulenza, gli **Advanced Persistent Threats**.
-

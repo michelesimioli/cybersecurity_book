@@ -1,6 +1,6 @@
 ISTRUZIONI
 
-Questo progetto contiene i sorgenti del corso 'Crittografia'.
+Questo progetto contiene i sorgenti del corso 'Cybersecurity'.
 
 Il corso è scritto in formato 'gitbook':
 * i sorgenti sono in formato 'GitHub MarkDown', molto simile ad ASCII puro e direttamente leggibili
@@ -17,6 +17,8 @@ Nè questo progetto ne la compilazione implementativa sul mio sito sono complete
 
 Il progetto è scaricabile con 'git' o in formato ZIP.
 Una volta scaricato è evidentemente modificabile in locale. Non si può però compiere l'upload delle modifiche.
+
+In caso di necessità di upload, inviarmi un 'Pull Request'.
 
 Le major versions verranno da me inserite in 'branches' appositi. Il corrente progetto punta la branch 'master'.
 

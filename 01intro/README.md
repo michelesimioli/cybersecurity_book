@@ -1,17 +1,10 @@
-# Introduzione
+# Introduzione alla Cybersecurity
 
-In questo primo modulo si considerano concetti generali e propedeutici, di base per ogni successivo approfondimento.
-In particolare si parlerà di:
+In questo primo modulo si considerano concetti generali e propedeutici, di base per ogni successivo approfondimento. In particolare si parlerà di:
 
-* **Cybersecurity**
-* **Definizioni e Modelli**
-* **Cyberwarfare**
-* **Il Rischio**
-* **Vulnerabilità ed Esposizioni**
-
-```text
-Durata: 40 min
-Aggiornamento: 07/08/2018
-Versione: 2
-Completamento: 100%
-```
+* **Situazione ed Evoluzione della Sicurezza Informatica**
+* **Definizioni e Modelli di Sicurezza**
+* **Guerra Cibernetica e Terrorismo**
+* **Vulnerabilità ed Esposizioni dei Sistemi**
+* **Il Rischio Informatico**
+* **La Difesa Informatica**
