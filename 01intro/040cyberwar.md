@@ -1,16 +1,75 @@
 # Cyberwar
 
-Delle sei categorie di attaccanti del _Modello CIA_, contro due di esse, _Servizi Nazionali_ e _Nemici/Terroristi_, le singole persone o piccole e medie aziende non si possono efficacemente difendere.
+Delle sei categorie di attaccanti del _Modello RID_, contro due di esse, _Servizi Nazionali_ e _Nemici/Terroristi_, le singole persone o piccole e medie aziende non si possono efficacemente difendere.
 
 Queste categorie sono impiegate nella Guerra Cibernetica (_Cyberwarfare_) che altri non è che guerra condotta con mezzi informatici, così come il _Cybercrime_ è crimine perpetrato con mezzi informatici.
 
 Nonostante l'impotenza privata, questo aspetto della sicurezza informatica non si può ignorare, perchè sta già apportando conseguenze allo scenario di sicurezza globale attuale, e molto più gravi può apportarne in futuro.
 
-Fortunatamente al momento si tratta di **guerra fredda**, che vede principalmente raccolta di informazioni (_SigInt_ - _Signals Intelligence_ ovvero spionaggio), e propaganda (_PsyOps_ - _Psycological Operations_, p.es manipolazione dei siti _social_).
+Fortunatamente al momento si tratta di **guerra fredda**, che vede principalmente raccolta di informazioni, ovvero spionaggio), e propaganda, per esempio manipolazione dei siti _social_.
 
-E' inoltre in atto il tentativo di guadagnare il controllo delle _Infrastrutture Critiche_ civili del potenziale nemico remoto, come centrali di comunicazione, erogazione energia, distribuzione materiali, nodi decisionali. Queste infrastrutture vanno sotto la sigla **SCADA** (_Supervisionary Control And Data Acquisition_ - Controllo di Supervisione ed Acquisizione Dati).
+In caso di escalation a **guerra calda**, come ormai avviene su molti teatri limitati nel mondo, la sicurezza cibernetica assume un ruolo chiave nell'intera dominanza del campo delle operazioni, e nelle strette interazioni tra informatica e proiettili fisici, la cosiddetta _Guerra Mista_: sia attacchi fisici a infrastrutture informatiche, che attacchi informatici i quali causano danni fisici.
 
-In caso di escalation a **guerra calda**, come ormai avviene su molti teatri limitati nel mondo, la sicurezza cibernetica assume un ruolo chiave nell'intera dominanza del campo delle operazioni, e nelle strette interazioni tra informatica e proiettili fisici, la cosiddetta guerra Ciber-cinetica (_Cyber-Kinetic warfare_).
+## SCADA
+
+E' inoltre in atto il tentativo di guadagnare il controllo delle _Infrastrutture Critiche_ civili del potenziale nemico remoto, come centrali di comunicazione, erogazione energia, distribuzione materiali, nodi decisionali. 
+Queste infrastrutture vanno sotto la sigla **SCADA** (_Supervisionary Control And Data Acquisition_ - Controllo di Supervisione ed Acquisizione Dati).
+
+I compito di _SCADA_ sono:
+
+* Monitoraggio e controllo di sistemi fisici industriali
+* Controllo di produzione
+* Erogazione energia, acqua, ecc.
+* Controllo delle centrali nucleari
+* Controllo della rete Internet
+
+![SCADA](../gitbook/images/scada.png)
+
+In caso di attacco _cyberwar_ vi sarebbero conseguenze su:
+
+* Popolazione civile colpita, non direttamente, ma per l'assenza di servizi di base
+* Difficoltà di recupero manuale delle operazioni se i computer non funzionano più
+* Assenza di sistemi di salvataggio dati
+
+### Esempio: Attacco all’Estonia
+
+All’uscita dal comunismo l’Estonia si è totalmente informatizzata (Governo Elettronico, Banking Online, ecc.)
+Nel giugno 2006 in Estonia abbattono il monumento al milite ignoto sovietico, considerato non estetico ed un retaggio del passato.
+
+Per vendetta il KGB inizia un attacco continuato di _Indisponibilità di Servizio_.
+L’attacco dura molti giorni poi cala e termina.
+
+In questo periodo l’Estonia è completamente paralizzata: banche, scuole, sanità non funzionano più.
+Il danno stimato è di centinaia di milioni di euro.
+
+![Estonia](../gitbook/images/estonia.png)
+
+L’attacco consisteva in enormi quantità di traffico di rete per saturare i computer della nazione vittima.
+
+Il KGB non ha mai assunto resposabilità per l’attacco, condotto apparentemente da singoli cittadini russi come ripicca all'abbattimento di una statua.
+
+Israele ha cooperato con l’Estonia per l’innalzamento di nuove barriere difensive cibernetiche.
+
+### Esempio: Stuxnet
+
+Nel 2009 l’Iran ha un impianto sotterraneo di arricchimento dell’uranio con centrifughe della ditta Siemens, che potenzialmente possono produrre materiale per armi atomiche.
+
+Forse gli Stati Uniti e forse con l'appoggio di Israele sviluppano un virus avanzato, **Stuxnet**, per l’attacco a questi sistemi SCADA.
+
+Il virus è posto in una chiave USB e tirato con una fionda oltre il recinto dell’impianto. Qualche operaio nell’ora d’aria lo raccoglie e lo prova sul suo PC.
+
+Dopo poche ore utte le centrifughe Siemens aumentano a dismisura i giri esplodono, con molte vittime tra il personale (mai confermate dall'Iran).
+
+Per molti altri anni Stuxnet è scoperto su PC in molti paesi nel mondo, tra le nazioni che cooperavano con l'Iran, quali Russia e Cina.
+
+![Stuxnet](../gitbook/images/stuxnet.png)
+
+Il software dei macchinari industriali, e di _Internet of Things_ in generale, ha molte meno protezioni di sicurezza dei normali Server e PC.
+
+Ma questi macchinari controllano la produzione e distribuzione dell’energia, i treni e gli aerei, le comunicazioni globali e la produzione industriale.
+
+Si sta velocemente arrivando a un nuovo mondo, molto pericoloso.
+
 
 ## Gli Attori nel Cyberwar
 
@@ -32,17 +91,17 @@ Anche l'India viene ritenuta un attore rilevante, ed infatti in questo paese son
 
 ## Operazioni Correnti
 
-Queste sono diventate note tramite le rivelazioni di _Wikileaks_ e di alcuni intraprendenti 'spifferai' (_whistleblowers_) intorno agli anni 2010. Lo NSA ed altre agenzie hanno in seguito fortemente tappato i canali da cui uscivano le notizie.
-
-Gli Stati Uniti hanno attivo il progetto **Prism** che consiste nel tentativo di raccolta di tutte le comunicazioni Internet al mondo e della loro ritenzione per i prossimi 100 anni. Sono aiutati in questo dal piazzamento di hardware di intercettazione nei luoghi strategici ove passa la maggior parte del traffico, col progetto **XKeyScore**.
+Queste sono diventate note tramite le rivelazioni di _Wikileaks_ e di alcuni intraprendenti 'spifferai' intorno agli anni 2010. Le agenzie segrete mondiali hanno in seguito fortemente tappato i canali da cui uscivano le notizie.
 
 ![Cornov](../gitbook/images/cornov.png)
 
-Il Regno Unito (GCHQ - _Government Communications Head Quarters_) già da più anni intercetta tutto il traffico di rete dei sudditi di Sua Maestà e tutto il traffico dei cavi sottomarini passanti per la Cornovaglia. Dopo l'appliaczione di filtri di rilevanza, il traffico _interessante_ ha periodi di ritenzione di 30 anni. I programmi di analisi del traffico inglesi sono addirittura molto più efficaci di quelli americani, tanto che questi ultimi se ne servono.
+Il Regno Unito (**GCHQ** - _Government Communications Head Quarters_) già da più anni intercetta tutto il traffico di rete dei sudditi di Sua Maestà e tutto il traffico dei cavi sottomarini passanti per la Cornovaglia. Dopo l'appliaczione di filtri di rilevanza, il traffico _interessante_ ha periodi di ritenzione di 30 anni. I programmi di analisi del traffico inglesi sono addirittura molto più efficaci di quelli americani, tanto che questi ultimi se ne servono.
 
-Il _National Security Agency_ americano controlla politicamente il _National Institute of Standards and Technology_ (NIST) ed ha effettivamente imposto l'adozione di standard di crittografia _bacati_ e decifrabili. Questo copre, ad esempio, lo standard SSL/TLS che si usa per le operazioni di _Home Banking_ in tutto il mondo.
+Lo **NSA** _National Security Agency_ americano controlla politicamente il _National Institute of Standards and Technology_ (NIST) ed ha effettivamente imposto l'adozione di standard di crittografia _bacati_ e decifrabili. Questo copre, ad esempio, lo standard SSL/TLS che si usa per le operazioni di _Home Banking_ in tutto il mondo.
 
 Lo NSA ha il dipartimento di _Tailored Access Operations_ (TOA) - Operazioni di Accesso Calibrate, con cui le agenzie di servizi informativi ed esecutivi militari e civili americane (CIA ed altre) possono contare su operazioni hacker _ad hoc_ e strumenti sofisticati di _cyberwar_ da campo.
+
+Gli Stati Uniti hanno inoltre attivo il progetto **Prism** che consiste nel tentativo di raccolta di tutte le comunicazioni Internet al mondo e della loro ritenzione per i prossimi 100 anni. Sono aiutati in questo dal piazzamento di hardware di intercettazione nei luoghi strategici ove passa la maggior parte del traffico.
 
 Tutte la maggiori forniture di materiale informatico americano destinate all'export sono modificate alla fabbrica e includono dispositivi hardware a bordo per l'inercettazione dati e il controllo dei dispositivi.
 
@@ -55,6 +114,8 @@ In particolare in Italia, tutto il traffico telefonico e Internet è passato d'u
 ## Attori Privati
 
 Un numero elevatissimo (migliaia) di ditte private mondiali offrono a pagamento _dispositivi di intercettazione e di hackeraggio_ dei dati di vittime terze, e addirittura interi _servizi chiavi in mano_ per lo hackeraggio.
+
+![Private](../gitbook/images/private.png)
 
 Una lista molto parziale include:
 

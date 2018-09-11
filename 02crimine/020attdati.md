@@ -1,8 +1,6 @@
-# Attacco ai Dati
+# Spionaggio
 
-## Spionaggio
-
-Anche detto **Data Exfiltration**, è il prelevamento dati da un computer vittima ed il suo invio in rete al computer del criminale.
+Anche detto **Data Exfiltration** (esfiltrazione o trafugamento dei dati), è il prelevamento dati da un computer vittima ed il suo invio in rete al computer del criminale.
 
 Informazioni di interesse sono:
 
@@ -12,12 +10,12 @@ Informazioni di interesse sono:
 
 Richiede necessariamente:
 
-* Programma **malware** installato sul computer vittima
-* Canale di comunicazione, probabilmente _stealth_, tra la vittima e il criminale
+* Un **programma malware** installato sul computer vittima
+* Un **canale di comunicazione**, probabilmente camuffato (_stealth_), tra la vittima e il criminale
 
 L’attività generale di acquisizione informazioni sulla vittima è detta **SigInt** (_Signal Intelligence_).
 
-### Dimensione dello Spionaggio
+## Dimensione dello Spionaggio
 
 * **Attacchi in grande stile**
   * La vittima deve avere informazioni di sufficiente interesse nazionale o pubblico
@@ -56,9 +54,9 @@ Considerazioni di base:
 * **I piccoli sistemi non devono avere informazioni sensitive**
 * **I sistemi con informazioni sensitive non devono navigare in rete**
 
-Al limite impostare delle _whitelist_ dei soli siti consentiti. Questo può diventare tedioso, ma aumenta fortemente la sicurezza, e impedisce che il personale navighi a caso nell'orario di lavoro.
+Al limite impostare delle _whitelist_ o liste bianche dei soli siti consentiti. Questo può diventare tedioso, ma aumenta fortemente la sicurezza, e impedisce che il personale navighi a caso nell'orario di lavoro.
 
-### Esfiltrazione Fisica
+## Esfiltrazione Fisica
 
 Dati sensibili possono essere sottratti da parte di personale interno su:
 
@@ -74,79 +72,78 @@ Un ente con dati sensitivi e in regime di alta sicurezza deve proibire la presen
 
 Attenzione alla corretta distruzione di dati
 
-* Cartaceo in uno _shredder_
+* Cartaceo in un _tritacarta_
 * Limitare al minimo i documenti provvisori in cartaceo
 * Supporti dati in collezione separata poi inceneriti
-* Conservare tutto il materiale sensitivo in cassaforte.
+ 
+Conservare tutto il materiale sensitivo in cassaforte.
 
-Le chiavette USB sono un grosso disatro di sicurezza e andrebbero proibite: ci si mette su il lavoro aziendale insieme alle foto dei figli e a filmini porno. Le foto contengono coordinate GPS e i filmini dei virus di vario tipo.
+Le chiavette USB sono un grosso problema di sicurezza e andrebbero proibite: ci si mette su il lavoro aziendale insieme alle foto dei figli e a filmini porno. Le foto contengono coordinate GPS e i filmini dei virus di vario tipo.
 
-Poi vengono usate per passare dei file veloci ai colleghi, che si copiano anche il resto.
+Molte ditte forniscono un PC portatile che viene portato anche a casa ed usato per altri scopi, con pericoli notevoli di introduzione di malware in ditta.
 
-Molte ditte forniscono un PC portatile che ci si porta anche a casa e si usa per altri scopi, con pericoli a non finire di introduzione di malware in ditta.
+I documenti temporanei stampati sono email, documenti word, fogli excel. Poi vengono eliminati nel cestino di riciclo carta e messi al di fuori dalla ditta, con possibilità di furto.
 
-I documenti temporanei stampati sono email, documenti word, fogli excel. Poi vengono buttati nel cestino di riciclo carta e messi fuori dalla porta. Io ne ho trovati a iosa negli enti pubblici in Toscana, dove sono ecologici. Si imparano cose imbarazzanti.
+I PC vecchi vengono anch’essi o semplicemente buttati o portati a stazioni di riciclo e abbandonati, con tutti i dati ancora dentro.
 
-I PC vecchi vengono anch’essi o buttati o portati a stazioni di riciclo e abbandonati, con tutti i dati ancora dentro!
+## PC Roaming
 
-### PC Roaming
+Sono i PC degli executives, che viaggiano e che devono comunque contenere dati sensibili.
 
-PC degli executives, che viaggiano e che devono comunque contenere dati sensibili.
-
-La quotazione di ricettazione di un PC di un executive di una ditta Fortune 500 è in America circa $10000.
-
-I furti avvengono soprattutto negli aeroporti.
+* La quotazione di ricettazione di un PC di un executive di una ditta Fortune 500 è in America circa $10000.
+* I furti avvengono soprattutto negli aeroporti.
 
 Contromisure:
 
 * Crittografazione del disco fisso
 * Backup su supporti crittografati che non viaggiano col PC
-* Whitelist di navigazione web
-* Comunicazione con **Virtual Private Network**  e solo con la casa madre
+* Liste bianche di navigazione per il web
+* Comunicazione con **Virtual Private Network** (VPN - rete privata virtuale e crittografata) e solo con la casa madre
 * Schermo con campo visuale ristretto
 * Togliere tutte le icone dallo schermo
 * Eliminazione di logo e distintivi aziendali
 
-In un qualsiasi aeroporto o treno Italo si vedono persone che lavorano al loro notebook in maniera forsennata. Quando il treno va a Roma il gergo lo chiama “portare il lavoro a Termini”.
+### Esempi: Situazioni di Pericolo
 
-Con una telecamerina è molto discreta di 70 ingrandimenti si vede benissimo quello che fanno.
+In un qualsiasi aeroporto o treno veloce si vedono persone che lavorano al loro notebook in maniera disinibita e in piena vista agli altri.
 
-All’aeroporto si mette il PC sul carrello poi si aspetta il proprio turno per i raggi X. C’è un intoppo e ci si mette tempo. Poi quando si arriva di la il PC non c’è più.
+All’aeroporto si mette il PC sul carrello poi si aspetta il proprio turno per i raggi X. C’è un intoppo e ci si mette tempo. Poi quando si arriva di la dal portale il PC non c’è più.
 
-Davanti all’hotel vicino a Termini mentre si telefona alla moglie un cinesino scippa la borsa col PC e fugge verso il quartiere Esquilino. Impossibile ribeccalo.
+Davanti all’hotel vicino a Termini, mentre si telefona alla moglie, un cinese scippa la borsa col PC e fugge verso il quartiere Esquilino. Impossibile ribeccalo.
 
 Alla stazione a Torino un albanese ti urta maldestramente e cadete tutti e due. Poi quando ti aiuta a rialzarti il tuo trolley non c’è più. E mentre ti guardi disperato in giro è sparito anche l’albanese.
-Consigli: i dati sono crittografati, mantenere un backup su One Drive e usare un PC che non costa più di €400 (si chiama un “Computer Bic”).
+
+Consigli: i dati siano crittografati, e si mantenga un backup su _One Drive_ o siti simili. E' anche meglio usare un PC che non costa più di €400, sacrificabile senza eccessiva perdita (si chiama un “Computer Bic”).
 
 ### Contromisure per i Server
 
 ![Safebox](../gitbook/images/safebox.png)
 
-Dipendono dalla sensitività dei dati
+Queste naturalmente dipendono dalla sensitività dei dati.
 
-* Storaggio sicuro dei dati
+* **Conservazione sicura dei dati**
   * Sicurezza fisica di accesso
   * Cura della sicurezza dei backup e delle repliche
-* Autenticazione d’accesso forte
+* **Autenticazione d’accesso forte**
   * Autenticazioni multi-fattore
   * Certificati anche per i client
   * Logging degli accessi e auditing periodico
-* Crittografazione delle comunicazioni
+* **Crittografazione delle comunicazioni**
   * Crittografare anche le comunicazioni interne
   * Reti Virtuali Private (_VPN_ - _Virtual Private Networks_)
-* Firewalls intelligenti
+* **Firewalls intelligenti**
   * _Proxy_ - niente accesso diretto interno-esterno
   * _Intrusion Detection Systems_ (IDS) anche per i dati in uscita
 
 ## Data Tampering
 
-E’ la modifica ai dati storati nel sistema vittima, a vantaggio del criminale remoto:
+Dall'inglese _tamper_ (modificare segretamente), è la modifica ai dati storati nel sistema vittima, a vantaggio del criminale remoto:
 
 * dati sensibili o non riproducibili
 * dati di Personal Identification Information (PII)
-* tokens di autenticazione
-* attributi collegati all’identità
-* profili di autorizzazione
+  * tokens di autenticazione
+  * attributi collegati all’identità
+  * profili di autorizzazione
 
 Si possono distinguere due casi:
 
@@ -155,9 +152,9 @@ Si possono distinguere due casi:
 * **Modifiche scoperte**
   * Anche solo poche modifiche possono causare una mancanza di fiducia in tutti i dati
 
-Occorre un’assoluta fiducia nell’integrità dei dati.
+Occorre un’assoluta fiducia nell’**integrità dei dati**.
 
-Questo implica anche test continuativi di efficacia.
+Questo implica anche **test continuativi di efficacia**.
 
 ### Indizi di Tampering
 
@@ -179,7 +176,7 @@ Uno **IDS Host-based** è un programma su un computer che lo monitorizza in cont
 
 Esistono più linee di difesa, da progettare:
 
-* **Checksum dei dati**
+* **Checksum dei dati** (algoritmo matematico di controllo dell'integrità)
   * Calcolo di un checksum a intervalli regolari
   * Mantenere i checksum crittografati o offline
   * Verifica regolare dei checksum
@@ -189,23 +186,16 @@ Esistono più linee di difesa, da progettare:
   * Le procedure ufficiali che modificano i dati ne compiono un commit al termine
   * Il versionamento automaticamente fornisce un timestamp e compie un checksum
   * E’ sempre possibile un checkout ad una previa versione
-* **Blockchain**
-  * Per sua natura è immutabile
-  * Mantenere nel blockchain i dati o i puntatori ai dati
 
 Un **Checksum** è un numero Hash calcolato da un file; se cambia il file cambia anche il checksum.
 
-Programmi che forniscono e mantengono checksums sono economici ma richiedono disciplina d’uso.
+I programmi che forniscono e mantengono checksums sono economici ma richiedono disciplina d’uso.
 
 Per lo sviluppo programmi e documenti a più riprese, un **Controllo Versione** non solo fornisce un checksum, ma permette anche di tornare a versioni precedenti.
 
-Le tecnologie **Blockchain** sono il futuro prossimo della sicurezza dei dati. Un Blockchain è un archivio immutabile e storico di tutte le versioni compiute. Al momento lo si usa per Bitcoin, ecc. ma presto esploderà in tutti i campi applicativi.
-
 ### Osservazioni
 
-Più probabilmente l’attacco di Data Tampering proviene dall’interno:
-
-* Computer zombie o con volontà della persona
+Più probabilmente l’attacco di Data Tampering proviene dall’interno, tramite computer zombie o con volontà della persona.
 
 Occorre identificare al più presto:
 
@@ -213,29 +203,19 @@ Occorre identificare al più presto:
 * Quali siano i **dati corrotti**
 * Quali siano i **dati non coinvolti** e di cui ci si fida
 
-Devono essere configurate procedure automatiche di backup dei dati, e devono essere compiuti test continui e veritieri di restore parziale.
+Devono essere configurate procedure automatiche di salvataggio dei dati, e devono essere compiuti test continui e veritieri di recupero parziale.
 
-Un restore può non ripristinare l’ultima versione corrente dei dati:
+Un _restore_ (recupero) può non ripristinare l’ultima versione corrente dei dati.
 
-* I dati devono essere suddivisi in classi con indice di tempo di perdita accettabile.
+E' opportuno che i dati siano suddivisi in classi con indice di tempo di perdita accettabile, poichè qualche perdita è inevitabile.
 
-**Zombie** è un computer controllato da remoto da uno hacker.
-
-Occorre per primo determinare quale sia il programma che corrompe i dati e fermarlo.
-
-Se non siamo subito in grado di determinare il programma malefico occorre spegnere il computer di brutto - non shutdown - e sottoporlo ad Analisi Forense, che può essere operazione lunga e penosa.
-
-Un computer che corrompe i dati non deve rimanere acceso!!
-
-Poi bisogna essere in grado di determinare quali sono i dati corrotti e quali ancora no. Se non siamo in grado tutti i dati devono considerarsi potenzialmente corrotti.
-
-In tal caso occorre un restore da una copia garantita non corrotta.
+Occorre che un eventuale _restore_ avvenga da una copia garantita non corrotta.
 
 ## Ripudio
 
 Vista la pervasività di dati illegali o programmi malefici su ogni tipo di computer, impiantati a insaputa del possessore, si può verificare la seguente situazione:
 
-Il possessore è veramente responsabile dei dati o programmi, ma lo nega: ripudia la responsabilità.
+Il possessore è veramente responsabile dei dati o programmi, ma lo nega: _ripudia_ la responsabilità.
 
 Gli elementi software illegali sono spesso dissimulati da software e dati legali o borderline con metodi di steganografia (dati nascosti). I livelli di dissimulazione possono essere molteplici.
 

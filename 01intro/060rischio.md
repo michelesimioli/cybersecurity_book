@@ -1,5 +1,20 @@
 # Il Rischio Informatico
 
+![Risk](../gitbook/images/risk.png)
+
+La sicurezza si può dividere in:
+
+* Sicurezza **fisica**
+  * Protezione delle _persone_
+  * Protezione dei _beni_
+* Sicurezza **informatica**
+  * Protezione dei _dati_
+  * Protezione dei _processi_
+
+La sicurezza non è mai assoluta, sia essa fisica che informatica. Esistono sempre rischi di perdita o degrado.
+
+I rischi però possono essere stimati, calcolati, eliminati, ridotti o gestiti. Per farlo occorre esserne consapevoli e adottare opportuni accorgimenti.
+
 ## Definizioni
 
 La **definizione** di rischio dipende alquanto dalla disciplina a cui ci si riferisce. Esiste il rischio fisico, finanziario, sanitario, ...
@@ -55,7 +70,7 @@ Vi sono molte metodologie di _analisi del rischio_, che ultimamente tentano di r
 
 ### Modelli di Minacce
 
-In ambito di sicurezza informatica l'_analisi del rischio_ si ottiene spesso formulando **modelli decisionali** con componente sia descrittiva che matematica, in una attività detta **Threat Modelling** modellazione delle minacce.
+In ambito di sicurezza informatica l'_analisi del rischio_ si ottiene spesso formulando **modelli decisionali** con componente sia descrittiva che matematica, in una attività detta **Threat Modelling** ovvero modellazione delle minacce.
 
 ![ModelMinac](../gitbook/images/modelminac.png)
 
@@ -115,7 +130,7 @@ Alcune frasi e asserzioni che si incontrano, denotano come la realtà del rischi
 La corretta _gestione del rischio_ passa da alcune fasi ben definite:
 
 * **Analisi del Rischio**
-  * identificare le _vulnerabilità_ ed esposizioni
+  * identificare le _vulnerabilità_ ed _esposizioni_
   * approntare un _Modello delle Minacce_
 * **Eliminazione del Rischio**
   * molte minacce sono semplicemente eliminabili, p.es. non attivare programmi che non servono, non esporre alla rete macchine deboli, ...

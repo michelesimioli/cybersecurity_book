@@ -10,6 +10,8 @@
   * [Il Rischio Informatico](01intro/060rischio.md)
   * [La Difesa](01intro/070difesa.md)
   * [Sommario del Modulo](01intro/990sommario.md)
+  * [Test del Modulo](01intro/995test.md)
+  * [Soluzione al Test](01intro/996soluzione.md)
 * [Crimini Informatici](02crimine/README.md)
   * [Criminali](02crimine/010criminali.md)
   * [Attacco ai Dati](02crimine/020attdati.md)

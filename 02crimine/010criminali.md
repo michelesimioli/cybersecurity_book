@@ -23,48 +23,46 @@ Nel rimanente meno del 15% dei casi gli attacchi provengono dall’interno della
 
 Degli attacchi interni, meno del 2% sono intenzionali, ed avvengono preferenzialmente in enti o ditte particolari, con strutture competitive forti (esempio: Pubblica Amministrazione).
 
-La grande maggioranza degli attacchi interni sono compiuti ad insaputa del possessore del computer attaccante, a causa di malware subdolamente installato.
+La grande maggioranza degli attacchi interni sono compiuti ad insaputa del possessore del computer attaccante, a causa di _malware_ subdolamente installato.
 
 ### Cui Prodest?
 
 In ogni attacco informatico si devono identificare i ruoli di:
 
-* Vittima
-* Attaccante
+* **Vittima**
+* **Attaccante**
 
 Inoltre occorre accorgersi di:
 
-* A chi giova l’attacco
-* Chi viene danneggiato dall’attacco
+* **A chi giova** l’attacco
+* **Chi viene danneggiato** dall’attacco
 
 Non necessariamente la vittima immediata è il bersaglio intenzionale, nè l’attaccante immediato è il mandatario.
 
-Gli originanti iniziali, per confondere le acque, usano sempre una serie di computer attaccanti intermedi, gli **stepping stones**.
+Può essere che il computer attaccato venga disabilitato perchè altrimenti si sarebbe accorto del vero attacco, per esempio è un firewall, o router, o Intrusion Detection System, o ha relazioni di altro tipo col vero computer attaccato.
+
+Gli originanti iniziali, per confondere le acque, usano sempre una serie di computer attaccanti intermedi, gli **stepping stones** - sono le pietre su cui si pongono i piedi nell'attraversareun guado.
+
+Uno **stepping stone** è un computer intermedio. Per esempio lo hacker italiano conquista un computer cinese, e da qui uno americano, e da qui uno francese. Il difensore vede provenire l’attacco dalla Francia, ma in realtà non ha idea da dove si sia originato.
 
 Inoltre il danno dell’ente vittima può essere correlato in modo contorto col vantaggio del mandante.
-
-Non vi sono mai situazioni _win-win_, ma a volte _lose-lose_.
 
 Nella determinazione della vittima e dell’attaccante occorre esercitare cautela e non limitarsi alle apparenze.
 
 Può darsi che il computer attaccato sia un diversivo per distrarre l’attenzione dei difensori, e il vero attacco sia altrove.
 
-Può essere che il computer attaccato venga disabilitato perchè altrimenti si sarebbe accorto del vero attacco, per esempio è un firewall, o router, o Intrusion Detection System, o ha relazioni di altro tipo col vero computer attaccato.
-
-Uno **stepping stone** è un computer intermedio. Per esempio lo hacker italiano conquista un computer cinese, e da qui uno americano, e da qui uno francese. Il difensore vede provenire l’attacco dalla Francia, ma in realtà non ha idea da dove si sia originato.
-
 La correlazione tra il danno della vittima e il vantaggio dell’attaccante può non essere palese. Per esempio una degradazione dell’efficienza di rete di un Service Provider può avvantaggiarne un altro. Oppure l’inserimento in varie blacklist degli indirizzi di un Mail Server può causare il passaggio dei clienti alla concorrenza.
 
 ## Superficie di Attacco
 
-Sono i sistemi e le reti della vittima visibili dalla posizione topologica dell’attaccante. Per esempio la **De-Militarized Zone** (_DMZ_) in una configurazione di firewall.
+Sono i sistemi e le reti della vittima visibili dalla posizione topologica dell’attaccante. Per esempio la **De-Militarized Zone** (_DMZ_) - _Zona Smilitarizzata_ - in una configurazione di firewall. Questa è la parte della rete in grado di vedere sia l'_interno_, o Rete Locale, che l'_esterno_, ovvero l'Internet.
 
 Hanno importanza particolare sulla superficie di attacco:
 
-* Vulnerabilità
+* **Vulnerabilità**
   * Debolezze del software o mancanza di patch
   * Sistemi vecchi non più aggiornabili
-* Esposizioni
+* **Esposizioni**
   * Cattive configurazioni, comportamenti degli utenti o amministratori
 
 I sistemi sulla superficie di attacco devono essere **blindati**.
@@ -75,13 +73,13 @@ Blindare significa apporre il maggior numero di protezioni compatibili col compi
 
 ## Hackers
 
-Nella classificazione CIA gli hackers sono individui non partecipanti ad organizzazioni, oppure con affiliazione saltuaria.
+Nella classificazione **RID** gli hackers sono individui non partecipanti ad organizzazioni, oppure con affiliazione saltuaria.
 
-Hanno notevoli conoscenze informatiche, entusiasmo tecnologico, ma scarsa conoscenza generale - quasi nessuna in materie umanistiche.
+Hanno notevoli conoscenze informatiche, **entusiasmo tecnologico**, ma scarsa conoscenza generale - quasi nessuna in materie umanistiche.
 
-Sono preponderantemente maschi. La percentuale femminile stimata è di meno del 10%.
+Sono preponderantemente **maschi**. La percentuale femminile stimata è di meno del 10%.
 
-L’età media è tra i 18 e 25 anni. Molto entusiasmo ma poche capacità tra i più giovani, digita divide tra i più anziani. Chi sopravvive diventa criminale o membro di un gruppo mafioso - o arruolato nei servizi.
+L’età media è **tra i 18 e 25 anni**. Molto entusiasmo ma poche capacità tra i più giovani, _digital divide_ o minor aggiornamento tecnologico tra i più anziani. Chi sopravvive diventa criminale o membro di un gruppo mafioso - o arruolato nei servizi segreti.
 
 Vi sembra essere correlazione tra gli hacker e i giochi di ruolo online.
 
@@ -94,19 +92,23 @@ Una distinzione sulla base delle loro intenzioni è:
 * **Crackers**
   * Sfruttatori malefici delle conoscenze acquisite
 
+Hackers e Crackers sono una suddivisione vecchia: gli hackers erano semplici “smanettoni” curiosi e i crackers quelli malefici. Non si usa più.
+
 Ora va più di moda considerare il _colore dei cappelli_:
 
-* White Hat
+* **White Hat** - cappello _bianco_
   * Guru 'buono'
-* Black Hat
+* **Black Hat** - cappello _nero_
   * Guru 'cattivo'
-* Grey Hat
+* **Grey Hat** - cappello _grigio_
   * Guru potenzialmente o saltuariamente 'cattivo', al momento al soldo dei 'buoni'
+
+I colori dei cappelli erano anche di più, ma si sono stabilizzati in tre “sfumature di grigio”. Nessuno ammette di essere grey, tutti siamo white, e black è dispregiativo. In realtà se non ti sporchi un po’ le mani non impari niente.
 
 I difensori principali sono:
 
-* **Security Officer**
-  * Ufficiale incaricato della difesa ICT
+* **Ufficiale di Sicurezza**
+  * Persona incaricata della difesa ICT
 * **Penetration Tester** (_PenTester_)
   * Conduce penetrazione delle difese, su contratto, senza danneggiare, allo scopo di potenziarle
 
@@ -114,37 +116,30 @@ Le _caratteristiche degli hacker sono, sotto due punti di vista:
 
 #### Scopi (perchè lo fanno?)
 
-* Bravata personale
+* **Per bravata personale**
   * Esibizione nei confronti dei pari
-  * Acquisizione conoscenze
-* Utilizzo sistemi
-  * Storaggio di materiale illegale
+  * Acquisizione conoscenze a scapito di altri
+* **Per utilizzare sistemi**
+  * Per mantenervi materiale illegale
   * Piattaforme di transito o d'attacco (powned)
-  * Botnets
+
+Più macchine possedute dagli hacker formano le **Botnets**, per attacchi simultanei ad altri computer.
 
 #### Filosofie Hacker
 
-* Libertaria – anarchica
-  * Contro i segreti e il copyright
-    * Pirati
-* Distruttiva – nichilista
-  * La tecnologa è l'impero del male
-    * Hacktivists
-* Cyberpunk – William Gibson e Bruce Sterling
-
-Hackers e Crackers sono una suddivisione vecchia: gli hackers erano semplici “smanettoni” curiosi e i crackers quelli malefici. Non si usa più.
-
-I colori dei cappelli erano anche di più, ma si sono stabilizzati in tre “sfumature di grigio”. Nessuno ammette di essere grey, tutti siamo white, e black è dispregiativo. In realtà se non ti sporchi un po’ le mani non impari niente.
-
-Security Officer è formale, PenTester va molto di moda. Si riparla in seguito di Penetration Testing.
-
-**powned**, a volte **p0wned** è slang hacker che viene da “own”, possedere. In questo slang si aggiunge spesso una “p” per tradizione ormai dimenticata. Il computer è “posseduto” dallo hacker.
+* **Libertaria** – anarchica
+  * Contro i segreti e il copyright, p.es. i Pirati
+* **Distruttiva** – nichilista, distruttiva
+  * Per loro la tecnologia è l'impero del male, p.es. gli **Hacktivists**, che danneggiano siti istituzionali
+* **Cyberpunk** – dai libri di fantascienza di William Gibson e Bruce Sterling
 
 **Cyberpunk** è uno stile di vita che denota gli hacker. La parola è stata inventata dallo scrittore canadese William Gibson nel suo romanzo “Neuromancer”, e ripreso da llo scriitore americano Bruce Sterling - molto letto in Italia. E’ un termine ufficiale, ma un po’ vecchiotto, e la maggior parte dei giovani hacker non hanno letto i libri.
 
 ### Tipi di Hacker
 
-* **Novizio** (_Script Kiddy_, _Lamer_)
+Categorizzazione come se fossero gradi di una gerarchia:
+
+* **Novizio**
   * Si vanta molto, prova attacchi semplici, viene preso subito
 * **Studente**
   * Nega di essere uno hacker, consulta siti sullo hacking, crittografa i file, legge libri, studia il linguaggio C
@@ -152,10 +147,6 @@ Security Officer è formale, PenTester va molto di moda. Si riparla in seguito d
   * Ha cambiato luogo, nessuno lo sospetta; opera da altri computer, usa metodi steganografici, usa molti sistemi operativi, ha possibilità economiche
 * **Guru**
   * Noto nel settore, è un ottimo programmatore; non è più uno hacker attivo, ha perso l'onda; ha punti di vista filosofici, forse scrive un libro.
-
-Notare che qui non stiamo parlando dei Criminali (CIA) ma degli Hacker (CIA), categoria ristretta.
-
-In inglese: _Novice_, _Student_, _Scholar_, _Guru_.
 
 Il novizio è giovane e non ha lavoro o è impiegato di fresco.
 
@@ -173,10 +164,10 @@ Postura comune di diniego:
 
 Danni che gli hacker possono causare:
 
-* Uso del computer come zombie in una rete BOT, per compiere attacchi verso altri computer
-* Storaggio di materiale illegale
-* Uso delle risorse di CPU e RAM (specie nei grossi sistemi) per la crittanalisi o il mining di valute elettroniche
-* Impianto di backdoor e sistemi di controllo remoto
+* Uso del computer come **zombie** in una rete **BOT**, per compiere attacchi verso altri computer
+* Nascondere materiale **illegale**
+* Uso delle **risorse** di CPU e RAM (specie nei grossi sistemi) per la crittanalisi o il _mining_ di valute elettroniche
+* Impianto di **backdoor** (porte d'accesso nascoste) e sistemi di controllo remoto
 
 Quando uno hacker è ben stabilito su un computer, per estirparlo può essere necessaria la reinstallazione da zero o addirittura la sostituzione del computer.
 
@@ -188,38 +179,34 @@ L’idea quindi è di impiegare hackers come addetti alla sicurezza informatica.
 
 Le principali obiezioni sono:
 
-* Psicologia bacata
+* **Psicologia bacata**
   * mancanza di lealtà aziendale e comportamento etico
   * tentazione di attacchi dall’interno
-* Job Turnover
-  * avranno i nostri segrti nel prossimo loro lavoro
+* **Cambiare ditta**
+  * avranno i nostri segreti nel prossimo loro lavoro
   * possono impiantare bombe logiche o a tempo
 
-Vi sono state tre fasi evolutive del concetto di impiego di hacker:
+Gli hacker non sono persone con comportamento sano, e non è che diventano onesti se gli si dà un lavoro. Inoltre da dentro la ditta hanno più occasioni d’attacco che non da fuori. E imparano parecchi dettagli riservati sulla ditta, che gli possono servire quando vanno a lavorare per la concorrenza.
+
+Una _Bomba Logica_ è un virus che scatta quando si verificano certe condizioni, p.es. una persona licenziata è cancellata dal database dei dipendenti.
+
+Una _Bomba a Tempo_ scatta in un momento preciso nel futuro, p.es. il prossimo venerdì 13 a mezzanotte.
+
+Vi sono state tre **fasi evolutive** del concetto di impiego di hacker:
 
 * Fase 1. Impiegare gli hacker a scopo difensivo
 * Fase 2. Tolleranza zero verso ogni tipo di hacker
 * Fase 3. Impiegare gli hacker a scopo offensivo (fortunatamente poche ditte lo fanno)
 
-Gli hacker non sono persone con comportamento sano, e non è che diventano onesti se gli si dà un lavoro. Inoltre da dentro la ditta hanno più occasioni d’attacco che non da fuori. E imparano parecchi dettagli riservati sulla ditta, che gli possono servire quando vanno a lavorare per la concorrenza.
-
-Tutti i padroni di casa cambiano le serrature quando il loro inquilino in affitto se ne va. Eppure la password di “administrator” viene raramente cambiata quando l’amministratore di sistema se ne va.
-
-Una Bomba Logica è un virus che scatta quando si verificano certe condizioni, p.es. una persona licenziata è cancellata dal database dei dipendenti.
-
-Una Bomba a Tempo scatta in un momento preciso nel futuro, p.es. il prossimo venerdì 13 a mezzanotte.
-
 ### Certified Ethical Hacker
 
 ![CEH](../gitbook/images/ceh.png)
 
-Forse è una contraddizione in termini.
+E' uno hacker con certificazione (CEH) conseguente all'esame 312-50 ($500) dello _EC-Council_ (ditta privata che non ha niente a che fare con la Commissione Europea).
 
-Hacker con certificazione (CEH) conseguente all'esame 312-50 ($500) dello EC-Council (non ha niente a che fare con la Commissione Europea).
+E' una serie di corsi ben curati che coprono le tecniche degli hacker, la difesa dei sistemi e delle reti, il penetration testing e l'analisi forense dei sistemi.
 
-Serie di corsi ben curati che coprono le tecniche degli hacker, la difesa dei sistemi e delle reti, il penetration testing e l'analisi forense dei sistemi.
-
-Il certificato CEH è molto apprezzato negli US.
+Il certificato CEH è molto apprezzato negli USA.
 
 Viene data molta enfasi al fatto che le azioni della persona formata devono seguire un codice di Etica.
 
@@ -236,11 +223,7 @@ Il **Penetration Testing** (_PenTest_) è una prova generale di attacco, come es
 * Compiuto da personale esperto e qualificato
   * Liberatoria di responsabilità legale del PenTester
   * Non intende causare danni ai sistemi
-* Con o senza conoscenza dell’attacco dal personale
-  * _Plain_ o _Blind_
-* Con o senza conoscenza dei sistemi dai PenTesters
-  * _White Box_ e _Black Box_ testing
-* Seguendo standards ben definiti e accettati
-  * **Penetration Testing Execution Standard**
+* Con o senza conoscenza dell’attacco dal personale, cosiddetti rispettivamente _Plain_ o _Blind_ 
+* Con o senza conoscenza dei sistemi dai PenTesters, detti test _White Box_ e _Black Box_
+* Seguonao standards ben definiti e accettati come ad esempio il **Penetration Testing Execution Standard**
 * Con scopo e durata limitati e rapporto finale
-

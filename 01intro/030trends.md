@@ -24,6 +24,8 @@ E' da notare che ben il 20% di attacchi intendano solamente carpire informazioni
 
 Seguono gli _Hacker_ e infine i _Vendicatori_, che sono il pericolo minore in generale. Ma va osservato che a volte i danni causati dai Vendicatori si traducono in un vantaggio competitivo per la concorrenza.
 
+![HackerHood](../gitbook/images/hackerhood.png)
+
 Per quanto riguarda i **Metodi** usati per gli attacchi, questi sono più variegati, e purtroppo indicano che le attenzioni alla difesa devono essere di svariati tipi.
 
 Lo _hacking_ diretto indica lo sfruttamento di debolezze intrinseche dei sistemi informativi, o perchè questi sono vecchi o perchè non aggiornati opportunamente con _patch_ di sicurezza.
@@ -32,7 +34,7 @@ Il _malware_ è costituito da programmi che l'attaccante è riuscito ad installa
 
 L'utente compie anche _errori_ nelle operazioni coi sistemi informativi, che possono essere sfruttati al volo dagli attaccanti. Gli esempi sono innumerevoli, ma uno può subito essere la cattiva gestione delle password.
 
-A volte cattive _configurazioni_ dei sistemi o delle reti permettono ad un attaccante di entrare come utente semplice, poi di condurre una cosiddetta _scalata di privilegi_ ediventare amministratore.
+A volte cattive _configurazioni_ dei sistemi o delle reti permettono ad un attaccante di entrare come utente semplice, poi di condurre una cosiddetta _scalata di privilegi_ e diventare amministratore.
 
 Le persone sono il punto più debole di un sistema informativo, e possono essere direttamente minacciate o indirettamente imbrogliate con attacchi chiamati di _ingegneria sociale_.
 
@@ -40,10 +42,18 @@ Infine la _sicurezza fisica_ dei sistemi non è da ignorare. Accessi non autoriz
 
 ## Nuova Categorizzazione
 
-![New CIA](../gitbook/images/newcia.png)
+![NewRID](../gitbook/images/newrid.png)
 
 E' possibile formulare un nuovo modello di sicurezza, più consono alla situazione presente, che si concentra sulle categorie degli attori non sui dati.
 
-Questo è diverso dal tradizionale _Modello CIA_, che rimane comunque valido in discussioni generali della sicurezza informatica.
+Questo è diverso dal tradizionale _Modello RID_, che rimane comunque valido in discussioni generali della sicurezza informatica.
 
-I termini sono tutti in inglese poichè la letteratura internazionale, in particolare i rapporti periodici di attività criminale, usano esclusivamente questi termini.
+## Maggiori Pericoli Correnti
+
+Secondo Marc Goodman, esperto di sicurezza ed autore del libro Future Crimes i più probabili sviluppi di sicurezza del 2018 vedranno i seguenti tipi di attacco.
+
+* **Ransomware** - diniego di accesso al computer con richiesta di riscatto in Bitcoin
+* **Armi di Intelligenza Artificiale** - riconoscimento delle persone, del loro comportamento, della loro locazione fisica e conseguenti ricatti mirati
+* **Attacchi Fisico-Cibernetici** - hacking di aerei, sistemi di trasporto, comunicazioni
+* **Furto di Crittovaluta** - Bitcoin principalmente, con attacco ai sistemi che li producono
+* **Hacking di Elezioni** - direttamente o con campagne su Siti _Social_

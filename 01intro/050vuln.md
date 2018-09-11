@@ -84,9 +84,9 @@ A differenza di una _vulnerabilità_, qui il software funziona perfettamente anc
 
 Le _esposizioni_ provengono da:
 
-* cattive configurazioni - colpa dell'amministratore
+* **cattive configurazioni** - colpa dell'_amministratore_
   * Esempi: configurazioni di default o di esempio, settaggi di fabbrica non modificati, ecc.
-* uso improprio - colpa dell'utente
+* **uso improprio** - colpa dell'_utente_
   Esempi: la stessa password su più computer, troppi permessi ai file, login come amministratore, ecc.
 
 Una similitudine automobilistica: guidare una Panda anzichè una Mercedes dà maggiore _vulnerabilità_ negli incidenti, guidare un'auto qualsiasi in Inghilterra a destra dà maggiore _esposizione_ agli incidenti.

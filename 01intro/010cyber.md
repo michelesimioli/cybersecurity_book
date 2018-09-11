@@ -24,11 +24,35 @@ In campo fisico si sono affermate nel tempo delle contromisure di base: si è mo
 
 Così anche in campo informatico si vanno affermando comportamenti e misure di carattere preventivo e _igienico_, vengono continuamente identificate contromisure a nuovi attacchi cibernetici, e varie Polizie Postali o Enti Nazionali di Difesa compiono un rapido intervento quando si verificano nuove _epidemie_ informatiche.
 
+## Hacking: Alcuni Famosi Episodi
+
+![Worm](../gitbook/images/worm.png)
+
+* 1988: Il Verme di Morris si diffonde in un’Internet primitiva ed infetta 6000 servers
+* 1995: per vincere il premio “Chi prima chiama vince una Porsche” uno hacker blocca l’intero servizio telefonico di Los Angeles
+* 1998: una squadra di hacker penetra e distrugge 500 computer Solaris del governo americano
+* 1999: un giovane hacker entra nei computer NASA di controllo della stazione spaziale, che vengono chiusi per tre settimane
+* 1999: il virus Melissa infetta milioni di sistemi Windows
+* 2000: attacco di un ragazzo di 15 anni a CNN, Amazon, eBay e Yahoo, con perdita di 1.2 miliardi di dollari
+* 2002: tutti i server DNS americani vengono spenti per un’ora
+* 2009: la Cina penetra Google China e da lì capta milioni di messaggi di posta elettronica di cittadini americani
+* 2009: uno hacker di Miami ruba dettagli di 10 milioni di carte di credito da 250 istituti finanziari
+
+### Attacchi Recenti: 2017
+
+![Wannacry](../gitbook/images/wannacry.png)
+
+* **Yahoo** ammette che, in una serie di attacchi, ogni singolo suo account (1 miliardo) è stato compromesso.
+* Il gruppo hacker Shadow Brokers ruba un’arma virus della NSA, **Wannacry**, e la diffonde: almeno 100,000 PC e servers infetti e richieste di riscatto.
+* Viene rivelata l’esistenza delle armi cibernetiche **Crash Override**, per l’attacco alla rete elettrica dell’Ucraina, e **Triton**, contro i sistemi industriali del Medio Oriente.
+* **Uber** paga $100,000 per tener segreto il furto d’identità di 57 milioni di suoi utenti.
+* La ditta di credito **Equifax** ammette il potenziale furto di credenziali dei suoi 147 milioni di utenti nel mondo.
+
 ## Percezione della Sicurezza
 
 Non arrivando immediatamente ad un tentativo di definizione della _sicurezza informatica_, consideriamo come viene percepita da categorie professionali diverse che ne sono a contatto.
 
-Per l'**ufficiale addetto alla sicurezza** i concetti sono più chiari e definiti. Si tratta di protezione dei dati, nei suoi principali aspetti di difesa della confidenzialità, integrità e disponibilità. Si tratta altresì di massimizzare la fiducia nel corretto comportamento degli applicativi informatici.
+Per il **personale addetto alla sicurezza** i concetti sono più chiari e definiti. Si tratta di protezione dei dati, nei suoi principali aspetti di difesa della confidenzialità, integrità e disponibilità. Si tratta altresì di massimizzare la fiducia nel corretto comportamento degli applicativi informatici.
 
 Per il **manager** però la sicurezza ha anche dei risvolti negativi. Si tratta innanzitutto di un costo di produzione aggiuntivo, e del dover far fronte a situazioni pericolose ed indesiderate. Viene quindi presto la considerazione che la sicurezza totale è _irraggiungibile_ e la necessità di trovare un giusto mezzo, efficace ma non troppo oneroso.
 

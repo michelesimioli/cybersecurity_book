@@ -10,12 +10,11 @@ Si parlerà quindi di:
 * **Diniego di Servizio**
 * **BOTs**
 * **Advanced Persistent Threat**
-* **Servizi di Hacking**
 * **Dark Net**
 
 ```text
 Durata: 40 min
 Aggiornamento: 11/08/2018
-Versione: 1
+Versione: 3
 Completamento: 100%
 ```

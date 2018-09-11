@@ -2,30 +2,39 @@
 
 Per poter capire cos'è e cosa coinvolge la sicurezza informatica è necessario un **modello** che la descriva, e dal quale sia posssibile trarre conseguenze e arrivare a decisioni.
 
-Fin dagli anni '90 in America si è affermato il modello di sicurezza detto **Modello CIA**. Con varie sigle e alcune piccole varianti, questo modello rimane tuttora di base per l'intercomunicazione tra persone che si occupano di difesa informatica.
+Si sono evoluti una serie di modelli per rappresentare le situazioni di cybersecurity, gli attaccanti coinvolti, la tipologia di operazioni, i danni causati.
 
-![Modello Cia](../gitbook/images/modellocia.png)
+Fin dagli anni '90 in America si è affermato il modello di sicurezza detto in italiano **Modello RID**. Con varie sigle e alcune piccole varianti, questo modello rimane tuttora di base per l'intercomunicazione tra persone che si occupano di difesa informatica.
 
-Il _Modello CIA_ non ha niente a che fare con l'omonima agenzia americana, nè questa ha partecipato alla stesura del modello. L'acronimo è l'abbreviazione in inglese dei termini:
+Questo modello si concentra sugli attacchi ai dati e alla loro compromissione: definisce tre tipi di motivi per gli attacchi e separa attacchi compiuti da gruppi e da individui.
 
-* **Confidenziality** - Confidenzialità, Riservatezza
-* **Integrity** - Integrità
-* **Availability** - Disponibilità
+![Modelli](../gitbook/images/modelli.png)
 
-L'acronimo, nella letteratura internazionale e anche italiana, compare tipicamente sempre come _CIA_ e non viene tradotto, come è il casso con molti termini informatici. Solo i francesi conducono il pervicace tentativo di tradurre ogni termine informatico.
+Il _Modello RID_ è l'abbreviazione dei termini:
 
-Il _Modello CIA_ si preoccupa della sicurezza in termini di **dati** e **programmi eseguibili**. I tre termini dell'acronimo descrivono _qualità_ desiderabili. Sono un parallelo con i tre tipici permessi sui file di un filesystem: **lettura**, **scrittura** ed **esecuzione**.
+* **Riservatezza** - dalla segretezza alla privacy
+* **Integrità** - autorevolezza dei dati
+* **Disponibilità** - contro l'indisponibilità di servizio
 
-## Confidenzialità
+![RID](../gitbook/images/rid.png)
 
-Mantenere la confidenzialità significa impedire che chi non è autorizzato venga a conoscenza dei dati.
+Il _Modello RID_ si preoccupa della sicurezza in termini di **dati** e **programmi eseguibili**.
 
-Eè uno spettro di aspetti, i cui capi sono:
+## Riservatezza
+
+Mantenere la riservatezza significa impedire che chi non è autorizzato venga a conoscenza dei dati.
+
+E' uno spettro di aspetti, i cui capi sono:
+
+![TopSecret](../gitbook/images/topsecret.png)
 
 * **Segretezza**
   * Proprietà intellettuale
   * Piani del business
   * Segreti dell’organizzazione
+
+![GooglePriv](../gitbook/images/googlepriv.png)
+
 * **Privacy**
   * Informazioni di identificazione personale
   * Informazioni relative alla salute, idee, orientamenti, fede
@@ -39,35 +48,30 @@ L'inegrità consiste nel consentire la produzione, modifica o cancellazione dei 
 
 Le modifiche non autorizzate possono essere:
 
-* Incidentali (rumore, ...)
-* Intenzionali (frode, …)
+* **Incidentali** (rumore, ...)
+* **Intenzionali** (frode, …)
 
 Nel mantenimento dell'integrità ccorre occuparsi sia della _protezione dei dati_ che della _protezione dei programmi eseguibili_ (codice software).
 
 * La protezione dei **dati** si ottiene con:
-  * Validazione degli input da parte degli utenti
+  * Validazione degli ingressi dati da parte degli utenti
   * Gestione degli errori umani e di sistema
-  * _Checksums_ ovvero codici di controllo matematici dell'integrità
-  * Gestione dei troncamenti o arrotondamenti impropri, che sono un'intrinseca conseguenza della rappresentazione binaria sottostante
+  * Gestione dei troncamenti o arrotondamenti impropri, che sono un'intrinseca conseguenza della rappresentazione dei numeri da parte del computer
   * Gestione degli errori nella comunicazione in rete
-* La protezione del **codice** si ottiene con i seguenti accorgimenti:
+* La protezione dei **programmi** si ottiene con i seguenti accorgimenti:
   * Gestione delle versioni prodotte in modo che non interferiscano tra loro
   * Monitorare e combattere le infezioni da virus e altri programmi malefici
   * Garantire l'affidabilità dei programmi e l'assenza di _bachi_
 
 ### Non Ripudio
 
-Il _Non Ripudio_ è una conseguenza della manutenzione dell'_integrità_. Qualcuno lo indica come categoria separate, ma solitamente ricade nella categoria _Integrità_ della triade _CIA_.
+Il _Non Ripudio_ è una conseguenza della manutenzione dell'_integrità_. Qualcuno lo indica come categoria separate, ma solitamente ricade nella categoria _Integrità_ della triade _RID_.
 
 Si ha **ripudio** quando l'autore dei dati o dei programmi nega di esserlo e non si assume la responsabilità.
 
 Il **Non Ripudio** è l'identificazione positiva ed univoca dell’autore di un cambiamento ai dati o al codice dei programmi.
 
-Questa è una preoccupazione relativamente recente ma percepita di notevole importanza. Gli accorgimenti adottati sono anche tecnologicamente complessi:
-
-* **_Auditing_** - mantenimento di registri dettagliati delle operazioni che ciascuno compie, e loro monitoraggio
-* **Firma Elettronica** - apposizione di un identificativo personale univoco ai documenti prodotti
-* **_Smart Contracts_** - contratti intelligenti, soluzioni futuribili ma in arrivo, che vedono gli inserimenti e le modifiche come _transazioni_ perenni, _contrattuali_, in un archivio non modificabile - è associato col nuovo ambiente dei **Blockchain**
+Questa è una preoccupazione relativamente recente ma percepita di notevole importanza. 
 
 ## Disponibilità
 
@@ -75,44 +79,42 @@ I processi, i prodotti e i dati informatici devono essere disponibili per le per
 
 Ciò puo essere impedito da:
 
-* Eventi catastrofici (**Acts of God** - _Atti di Dio_ nella terminologia giuridica americana)
+* **Eventi catastrofici**
   * Geoambientali (alluvioni, terremoti, ecc)
   * Geopolitici (guerre, ecc.)
-* Guasti di sistema (**Acts of the Devil**/ of Murphy - _Atti del Diavolo o di Murphy_ - battuta americana per eventi dovuti a _sfortuna_ e non a pianificazione divina. Murphy è il personaggio leggendario del libro _La Legge di Murphy_ che causa ogni tipo di iella)
+* **Guasti di sistema**
   * Software di base
   * Software applicativo
-* Errori umani (comportamento **colposo**)
+* **Errori umani** (comportamento **colposo**)
   * Configurazioni, ecc.
-* Attacchi intenzionali (comportamento **doloso**)
-  * Diniego di Servizio (DOS - _Denial of Service_ - impedire volontariamente che un servizio informatico funzioni, tramite attacchi specifici)
-  * Virus e _malware_ (software malefico di varie tipologie)
-  * Diniego di Servizio Distribuito (DDOS) - attacco ad un'intera rete che ospita il servizio informatico
+* **Attacchi intenzionali** (comportamento **doloso**)
+  * Indisponibilità di Servizio - incluso virus e altro software malefico di varie tipologie
+  * Indisponibilità di Servizio Distribuito - attacco da parte di un'intera rete
 
 ### Considerazioni
 
 Alcune frasi e vocaboli sono connessi alla disponibilità dei sistemi:
 
-* **Single Point of Failure** (_SPOF_)
-  * Punto Singolo di Fallimento
+* **Punto Singolo di Fallimento**
   * Componente critica del sistema, senza il quale il servizio informatico cessa di funzionare
   * E' da evitare accuratamente nella progettazione degli applicativi
-* **Failover**
+* **Resilienza**
   * Indica un'adattamento automatico a situazioni di funzionamento anomale (ma previste) e non ottimali
   * Evita una totale cessazione del servizio per guasti minori
   * Si ottiene con la ridondanza dei componenti critici
 * **Replicazione dei Dati**
-  * Backup automatici con intervento automatico delle copie in caso di problemi alla versione principale
-  * Si chiamano anche soluzioni di _High Availability_ (HA) - alta disponibilità - tendono ad essere costose
+  * Salvataggi automatici con uso automatico delle copie in caso di problemi alla versione principale
+  * Si chiamano anche soluzioni di _Alta disponibilità_ - tendono ad essere costose
 * **Scalabilità**
-  * _Failure by Excessive Success_ - 'Fallimento per successo eccessivo': il successo era imprevisto, magari perchè era un progetto prototipo o temporaneo, ed ora è problematico
-  * Allocazione elastica delle risorse, _on demand_ (a richiesta) - Vantaggio delle soluzioni cosiddette _Cloud_
+  * Il successo era imprevisto, magari perchè era un progetto prototipo o temporaneo, ed ora è problematico
+  * Allocazione elastica delle risorse, _a richiesta_ - Vantaggio delle soluzioni cosiddette _Cloud_
 * **Resilienza**
-  * _Graceful Degradation_ (Degradamento 'Aggraziato' delle Operazioni- Mantenere le operazioni vitali per il business e sacrificare quelle meno importanti
-  * Piani di _Disaster Recovery_ - Recupero da Disastri, che potrebbero altrimenti essere definitivi e fatali per l'azienda. E' una necessità specie in un paese con elevati rischi sismici o idrogeologici.
+  * _Degrado parziale_ del servizio- mantenere le operazioni vitali e sacrificare quelle meno importanti
+  * Piani di _Recupero da Disastri_, che potrebbero altrimenti essere definitivi e fatali per l'azienda. E' una necessità specie in un paese con elevati rischi sismici o idrogeologici.
 
-## Modello CIA ed 'Attori'
+## Modello RID ed Attaccanti
 
-Il _Modello Cia_ non definisce soltanto le categorie di dati e programmi che devono essere difese, ma indica anche quali siano gli **Attori** o **Figure Attive**, che altro non sono che eufemismi per **Attaccanti**.
+Il _Modello RID_ non definisce soltanto le categorie di dati e programmi che devono essere difese, ma indica anche quali siano gli **Attori** o **Figure Attive**, che altro non sono che eufemismi per **Attaccanti**.
 
 ![Figure Attive](../gitbook/images/figatt.png)
 
@@ -126,7 +128,7 @@ Vengono poi indicati, lungo il bordo sinistro del diagramma, tre raggruppamenti 
 * **lucro** - vantaggio monetario o di potere ottenuto con strumenti informatici ma con attività illegali
 * **psicologie perverse** - le motivazioni rimanenti raggruppate e varie, che hanno valenza dannosa o distruttiva nella società civile. Possono andare dalla vendetta alla pirateria, al danno inconsulto, alla mera affermazione di potere malefico.
 
-Esaminiamo brevemente le categorie descritte dal _Modello CIA_.
+Esaminiamo brevemente le categorie descritte dal _Modello RID_.
 
 ### Servizi Segreti e Nazionali
 
@@ -176,20 +178,17 @@ Gli hacker di _talento_ si trasformano più tardi in _criminali_ o vengono spess
 
 ## Tipo di Operazioni
 
-Il tipo di operazioni condotte dagli attaccanti possono essere:
+Le operazioni condotte dagli attaccanti possono essere:
 
-### Aperte (overt)
+### Aperte
 
 * L’attaccante può essere identificato, e portare comunque a termine le operazioni
-* Sono tipicamente danni: distruzione di dati, diniego di servizio, cyberwarfare associata a guerra calda
+* Sono tipicamente danni: distruzione di dati, diniego di servizio, guerra cibernetica associata alla guerra calda
 * Non sono molto comuni
 
-### Coperte (covert)
+### Coperte
 
-* E’ indispensabile che l’attaccante non venga identificato durante le operazioni
-  * Il difensore può contrastare l’attacco
-  * Possono avvenire ritorsioni fisiche o legali
+* E’ indispensabile che l’attaccante non venga identificato durante le operazioni poichè il difensore può contrastare l’attacco e possono avvenire ritorsioni fisiche o legali
 * Esempi sono: spionaggio e furto di dati, frodi e furto di valore, impersonazioni e furto di identità
 * Sono molto comuni
 * Il difensore può accorgersi del danno subito molto dopo la conclusione delle operazioni
-
