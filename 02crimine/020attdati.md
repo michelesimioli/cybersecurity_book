@@ -225,11 +225,11 @@ Situazione esempio di diniego plausibile:
 * Le autorità concludono che tale è il materiale nascosto (non completamente illegale) e sono soddisfatte.
 * L’immagine porno a sua volta però contiene un archivio di password o altri dati veramente sensibili.
 
-La steganografia è diversa dalla crittografia e viene approfondisce nel seguito. E’ una serie di metodi per nascondere i dati in modo che nessuno nemmeno ne sospetti l’esistenza.
+La steganografia è diversa dalla crittografia. E’ una serie di metodi per nascondere i dati in modo che nessuno nemmeno ne sospetti l’esistenza.
 
 Naturalmente gli analisti bravi cercano e trovano i dati nascosti. A questo punto la difesa è di dissimularli facendoli appartenere a categorie diverse dalla loro natura: questo è detto **Diniego Plausibile**.
 
-E’ una operazione di _Ingegneria Sociale_ (vedi oltre): immediata categorizzazione del colpevole e della colpa, errata ma plausibile. La furbizia stà nel fingere i dati nascosti come materiale immorale.
+E’ una operazione di _Ingegneria Sociale_: immediata categorizzazione del colpevole e della colpa, errata ma plausibile. La furbizia stà nel fingere i dati nascosti come materiale immorale.
 
 I veri dati nascosti, pericolosi e non immorali, sono ad un livello di occultamento ulteriore. Ma l’analista crede di aver trovato tutto il trovabile e non cerca oltre.
 
@@ -239,17 +239,10 @@ L’unico metodo efficace è un auditing estremo di tutte le operazioni compiute
 
 In assenza di auditing non si possono avere prove certe, e l’amministratore che ripudi la volontà propria nel Data Tampering non può che essere assolto per assenza di prove.
 
-Se il sistema ha un livello di sicurezza elevato, per esempio **Security Enhanced Linux** (_SELinux_) (pronuncia: “esse e linux”), tutti i dati e programmi hanno un possessore ben identificato ed il ripudio è impossibile.
-
-SELinux è un sistema sofware imposto dall’agenzia NSA americana per i computer degli enti pubblici.
-E’ mito metropolitano che SELinux inoltre compia spionaggio automatico per la NSA.
-
-Ma è richiesto _Linux Enterprise_ e l’amministrazione di SELinux è complessa.
-
 Con sistemi personali o mobili il ripudio deve essere accettato, con beneficio del dubbio per il possessore.
 
 Quello che è veramente importante è **impedire che i dati sospetti escano e transitino in rete**, quindi la scoperta di tutti i possibili canali di comunicazione nascosta tra un computer e l’hacker remoto, e la loro eliminazione.
 
-In alcune nazioni la crittografazione di file systems è illegale, o la polizia deve essere fornita di _passphrase_ d’accesso a richiesta.
+In alcune nazioni la crittografazione di file systems è illegale, o la polizia deve essere fornita di _password_ d’accesso a richiesta.
 
 Possono essere impiegati “metodi convincenti”.

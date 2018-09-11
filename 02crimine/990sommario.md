@@ -1,6 +1,6 @@
 # Sommario del Modulo
 
-Gli attacchi ai dati avvengono ai tre aspetti del **Modello CIA**: _Confidenzialità_, _Integrità_ e _Disponibilità_.
+Gli attacchi ai dati avvengono ai tre aspetti del **Modello RID**: _Riservatezza_, _Integrità_ e _Disponibilità_.
 
 Gli attacchi sono perpetrati sia da **Hackers individuali**, sia da **Teams organizzate**, che possono offrire i loro servizi a terzi.
 

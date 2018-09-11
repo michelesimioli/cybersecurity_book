@@ -6,14 +6,14 @@ E’ impedire volutamente il funzionamento dei sistemi o delle reti della vittim
 
 Si distingue in:
 
-* **Denial of Service** (_DOS_) da parte di un singolo attaccante
-* **Distributed Denial of Service** (_DDOS_) da parte di molti attaccanti simultaneamente
+* **Denial of Service** (_DOS_) - diniego di servizio semplice - da parte di un singolo attaccante
+* **Distributed Denial of Service** (_DDOS_) - diniego di servizio distribuito - da parte di molti attaccanti simultaneamente
 
 Gli attacchi DOS coinvolgono spesso anche computer o reti non della vittima designata: danni collaterali. Questo è dovuto alla interconnessione complessa in Internet, e anche a connessioni esistenti ma non documentate.
 
 ### Scopi del DOS
 
-* **Attacco di Cyberwarfare**
+* **Attacco di Guerra Cibernetica**
   * Nazionale o terroristico. Può avvenire per:
     * Parte di guerra calda vera
     * Pressione e intimidazione sul nemico
@@ -34,12 +34,11 @@ Il secondo motivo è di arrecare danno al nemico, nazionale, politico, commercia
 
 ### Detezione e Responso
 
-La detezione è probabilmente rapida, visto il degrado repentino delle performance.
+La detezione è solitamente rapida, visto il degrado repentino delle performance.
 
-Occorre comunque dichiarare ufficialmente lo **stato di attacco**:
+Occorre comunque dichiarare ufficialmente lo **stato di attacco** per poter rendere attiva la **Squadra di Responso**.
 
-* Si rende attiva la **Squadra di Responso**
-* Potrebbe essere un malfunzionamento naturale dovuto a condizioni transienti
+Bisogna sempre considerare che l'evento potrebbe essere un malfunzionamento naturale dovuto a condizioni transienti.
 
 Occorre determinare l’ambito ed estensione dell’attacco:
 

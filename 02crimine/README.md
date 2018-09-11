@@ -14,7 +14,7 @@ Si parlerà quindi di:
 
 ```text
 Durata: 40 min
-Aggiornamento: 11/08/2018
+Aggiornamento: 11/09/2018
 Versione: 3
 Completamento: 100%
 ```
